@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_to_98 - Prints a triangle of squares according parameter
+ * print_triangle - Prints a triangle of squares according to the parameter
  * @size: The size of the square triangle
  * Return: empty
  */
