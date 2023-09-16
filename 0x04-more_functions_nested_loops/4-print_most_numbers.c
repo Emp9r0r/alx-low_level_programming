@@ -4,7 +4,8 @@
 /**
  * print_most_numbers - Prints the numbers from 0 to 9
  * Description: Prints the numbers excluding 2 and 4
- * Return: The numbers from 0 to 9
+ *
+ *
  */
 
 void print_most_numbers(void)
@@ -25,5 +26,3 @@ void print_most_numbers(void)
 		_putchar('\n');
 	}
 }
-
-
