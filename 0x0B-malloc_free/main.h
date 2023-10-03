@@ -1,6 +1,7 @@
 #ifndef FILE_MAIN
 #define FILE_MAIN
 
+void free_grid(int **grid, int height);
 char **strtow(char *str);
 char *_strdup(char *str);
 char *str_concat(char *s1, char *s2);
