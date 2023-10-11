@@ -3,12 +3,12 @@
 #include <stdlib.h>
 
 /**
- * int_index - Find the index of the first element that meets specific condition.
+ * int_index - Find the index of the first element in the specific condition.
  * @array: The array to search.
  * @size: The number of elements in the array.
- * @cmp: A pointer to a comparison function (one of three from the main program).
+ * @cmp: A pointer to function (one of three from the main program).
  *
- * Return: The index first element which the comparison function returns true.
+ * Return: The index first element function returns true.
  * If no such element is found, the function returns -1.
  */
 
