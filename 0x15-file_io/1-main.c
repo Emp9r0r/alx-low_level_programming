@@ -1,34 +1,22 @@
-#include <stdlib.h>
-#include <string.h>
 #include <stdio.h>
-#include "lists.h"
+#include <stdlib.h>
+#include "main.h"
 
 /**
  * main - check the code
  *
- * Return: Always EXIT_SUCCESS.
+ * Return: Always 0.
  */
-int main(void)
+int main(int ac, char **av)
 {
-	dlistint_t *head;
-	dlistint_t *new;
-	dlistint_t hello = {8, NULL, NULL};
-	size_t n;
+	int res;
 
-	head = &hello;
-	new = malloc(sizeof(dlistint_t));
-	if (new == NULL)
+	if (ac != 3)
 	{
-		dprintf(2, "Error: Can't malloc\n");
-		return (EXIT_FAILURE);
+		dprintf(2, "Usage: %s filename text\n", av[0]);
+		exit(1);
 	}
-	new->n = 9;
-	head->prev = new;
-	new->next = head;
-	new->prev = NULL;
-	head = new;
-	n = dlistint_len(head);
-	printf("-> %lu elements\n", n);
-	free(new);
-	return (EXIT_SUCCESS);
+	res = create_file(av[1], av[2]);
+	printf("-> %i)\n", res);
+	return (0);
 }
