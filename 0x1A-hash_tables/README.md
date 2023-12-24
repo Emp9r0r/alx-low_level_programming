@@ -1,0 +1,22 @@
+0x1A. C - Hash tables
+C
+Algorithm
+Data structure
+ By: Julien Barbier
+ Weight: 1
+ Ongoing second chance project - started Dec 21, 2023 6:00 AM, must end by Dec 25, 2023 6:00 AM
+ An auto review will be launched at the deadline
+In a nutshell…
+Auto QA review: 0.0/47 mandatory & 0.0/21 optional
+Altogether:  0.0%
+Mandatory: 0.0%
+Optional: 0.0%
+Calculation:  0.0% + (0.0% * 0.0%)  == 0.0%
+Resources
+Read or watch:
+
+What is a HashTable Data Structure - Introduction to Hash Tables , Part 0
+Hash function
+Hash table
+All about hash tables
+why hash tables and not arrays
